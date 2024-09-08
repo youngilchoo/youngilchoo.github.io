@@ -1,0 +1,204 @@
+body {
+    /* font-family: Optima; */
+    /* font-family: Papyrus; */
+    /* font-family: Palatino; */
+    /* font-family: Zapfino; */
+    /* font-family: Helvetica-Light; */
+    /* font-family: "Times New Roman"; */
+    /* font-family: Roboto-Light; */
+    /* font-family: Georgia; */
+    font-family: Optima;
+    font-size: 100%;
+    margin: 4ex;
+    /* color: #eeeeee; */
+    color: #ddd;
+    /* background-color: #000044; */
+    background-color: #000055;
+}
+
+a,h1,h2,h3,h4,h5,h6 {
+    /* color: #0000dd; */
+    color: #aaeeff;
+    margin-block-end: 0pt;
+    font-weight: normal;
+}
+
+h1 { font-size: 190%; margin-block-start: 1em; }
+h2 { font-size: 150%; }
+h3 { font-size: 120%; }
+h4 { font-size: 110%; }
+h5 { font-size: 105%; }
+h6 { font-size: 100%; }
+
+/* p { margin-block-start: 0pt; margin-block-end: 0pt;} */
+a { text-decoration: none; }
+
+code {
+    font-family: "Roboto Mono", Courier, Courier New, monospace;
+    color: #dbf;
+    font-size: 90%;
+}
+
+strong { color: #ffbbbb; }
+
+em { color: #aaffaa; }
+
+/* do not show outline box for article */
+.noOutline:focus{ outline:none; }
+
+.pre {
+    font-family: "Roboto Mono";
+    font-size: 70%;
+}
+
+.title {
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.ash { color: #ff00aa; }
+
+.note-para {
+    font-size: 120%;
+    /* background-color: #e0ffe0; */
+    background-color: #007000; /* for dark */
+}
+
+.table { font-size: 100%; }
+
+/* from Kubernetes Native Development */
+.chaptertitle { font-size: 200%; }
+
+.LineGroup {
+    font-family: Roboto Mono;
+    padding: 1em;
+}
+
+.CaptionContent {padding-bottom: 1ex}
+
+#sbo-rt-content .CaptionContent>.SimplePara:first-child,#sbo-rt-content .CaptionContent>.CaptionNumber+.SimplePara,#sbo-rt-content .CaptionContent>a+.SimplePara{display:inline;margin-top:0}
+
+.CaptionNumber{font-style:italic;font-weight:bold;padding-right:.6em}
+
+.Headings{margin-bottom:.5em; font-weight: bold}
+
+.SecondaryIE{margin-left:2em}
+
+.TertiaryIE{margin-left:4em}
+
+/* set all these to be inline first, then set the .Para inside FootnoteContent to inline */
+.ItemNumber,.ListItem,.ItemContent,.FootnoteContent,.ExternalRef,.RefSource,.EmphasisFontCategoryNonProportional{display:inline;margin-top:0}
+
+.FootnoteContent .Para{display:inline;margin-top:7;margin-left:1em}
+
+.ItemContent .Para{display:inline;margin-top:0}
+
+.EmphasisTypeItalic{color: #cc0000; font-weight: bold}
+
+.TocChapter{margin-top:1em;
+	    color: #0000dd;
+	    font-weight: bold;
+	   }
+
+.TocSection1{margin-left:1em;
+	    font-weight: normal}
+
+.TocSection2{margin-left:2em}
+
+.programlisting, .ProgramCode{background-color: #007;}
+
+#sbo-rt-content .fm-combinumeral{display:inline}
+/* #sbo-rt-content .fm-combinumeral{color:#005;font-family:"Cambria Math","serif";font-size:1em;line-height:1.4} */
+
+.fm-head-1toc {margin-left: 1em}
+.fm-head-2toc {margin-left: 5em}
+
+/* core kubernetese */
+.level1ix {margin-left: 1em}
+.level2ix {margin-left: 2em}
+.level3ix {margin-left: 3em}
+.fm-sidebar-title {color: #900; font-style: italic}
+
+/* Righting Software */
+.indexmain{margin-top:.2em;margin-bottom:.2em;margin-left:2.7em;text-indent:-2.7em}
+.indexsub{ margin-top:.1em;margin-bottom:.1em;margin-left:2.8em;text-indent:-1.5em}
+.toclev1{margin-top:.1em;margin-bottom:.1em;margin-left:7.2em}
+.toclev2{margin-top:.1em;margin-bottom:.1em;margin-left:9.5em}
+.tocchap{margin-top:1.2em;margin-bottom:.2em;margin-left:2.5em;text-indent:0;font-weight:bold}
+.tocpart{margin-top:1.5em;margin-bottom:.1em;margin-left:.1em;font-weight:bold;text-align:left}
+.titleb{margin-top:.5em;margin-bottom:.5em;margin-left:.0em;margin-right:.1em;text-indent:.0em;color:#aaaaff;font-size:1.2em;font-weight:bold}
+.sidebar{margin-top:1em;margin-bottom:1em;margin-left:1em;margin-right:1em;text-indent:.1em;background-color:#002266;padding:.2em .8em .8em .3em}
+.sidebarb{margin-top:1em;margin-bottom:1em;margin-left:1em;margin-right:1em;text-indent:.1em;background-color:#112244;padding:.5em .5em .5em .5em;border:solid #002B4E .1em}
+.blue{color:#aaaaff;font-weight:bold;background-color:#112244;}
+
+/* Probabilistic Machine Learning for Finance and Investing */
+.orm-ChapterReader-codeSnippetContainer{position:relative;margin-bottom:2rem!important; background-color: #000066;}
+#sbo-rt-content pre code.hll{background-color:#ffc}
+#sbo-rt-content pre code.c{color:#09F;font-style:italic}
+#sbo-rt-content pre code.err{color:#A00}
+#sbo-rt-content pre code.k{color:#adf;font-weight:bold}
+#sbo-rt-content pre code.o{color:#ff5}
+#sbo-rt-content pre code.cm{color:#35586C;font-style:italic}
+#sbo-rt-content pre code.cp{color:#099}
+#sbo-rt-content pre code.c1{color:#22bb44;font-style:italic}
+#sbo-rt-content pre code.cs{color:#35586C;font-weight:bold;font-style:italic}
+#sbo-rt-content pre code.gd{background-color:#FCC}
+#sbo-rt-content pre code.ge{font-style:italic}
+#sbo-rt-content pre code.gr{color:#F00}
+#sbo-rt-content pre code.gh{color:#030;font-weight:bold}
+#sbo-rt-content pre code.gi{background-color:#CFC}
+#sbo-rt-content pre code.go{color:#000}
+#sbo-rt-content pre code.gp{color:#009;font-weight:bold}
+#sbo-rt-content pre code.gs{font-weight:bold}
+#sbo-rt-content pre code.gu{color:#030;font-weight:bold}
+#sbo-rt-content pre code.gt{color:#9C6}
+#sbo-rt-content pre code.kc{color:#069;font-weight:bold}
+#sbo-rt-content pre code.kd{color:#069;font-weight:bold}
+#sbo-rt-content pre code.kn{color:#0ae;font-weight:bold}
+#sbo-rt-content pre code.kp{color:#069}
+#sbo-rt-content pre code.kr{color:#069;font-weight:bold}
+#sbo-rt-content pre code.kt{color:#078;font-weight:bold}
+#sbo-rt-content pre code.m{color:#F60}
+#sbo-rt-content pre code.s{color:#F80}
+#sbo-rt-content pre code.na{color:#309}
+#sbo-rt-content pre code.nb{color:#aee}
+#sbo-rt-content pre code.nc{color:#0A8;font-weight:bold}
+#sbo-rt-content pre code.no{color:#360}
+#sbo-rt-content pre code.nd{color:#99F}
+#sbo-rt-content pre code.ni{color:#999;font-weight:bold}
+#sbo-rt-content pre code.ne{color:#C00;font-weight:bold}
+#sbo-rt-content pre code.nf{color:#CAF}
+#sbo-rt-content pre code.nl{color:#99F}
+#sbo-rt-content pre code.nn{color:#0CF;font-weight:bold}
+#sbo-rt-content pre code.nt{color:#309;font-weight:bold}
+#sbo-rt-content pre code.nv{color:#033}
+#sbo-rt-content pre code.ow{color:#aaf;font-weight:bold}
+#sbo-rt-content pre code.w{color:#bbb}
+#sbo-rt-content pre code.mf{color:#F60}
+#sbo-rt-content pre code.mh{color:#F60}
+#sbo-rt-content pre code.mi{color:#F60}
+#sbo-rt-content pre code.mo{color:#F60}
+#sbo-rt-content pre code.sb{color:#C30}
+#sbo-rt-content pre code.sc{color:#C30}
+#sbo-rt-content pre code.sd{color:#C30;font-style:italic}
+#sbo-rt-content pre code.s2{color:#C30}
+#sbo-rt-content pre code.se{color:#C30;font-weight:bold}
+#sbo-rt-content pre code.sh{color:#C30}
+#sbo-rt-content pre code.si{color:#E60}
+#sbo-rt-content pre code.sx{color:#C30}
+#sbo-rt-content pre code.sr{color:#3AA}
+#sbo-rt-content pre code.s1{color:#E80}
+#sbo-rt-content pre code.ss{color:#A60}
+#sbo-rt-content pre code.bp{color:#366}
+#sbo-rt-content pre code.vc{color:#033}
+#sbo-rt-content pre code.vg{color:#033}
+#sbo-rt-content pre code.vi{color:#033}
+#sbo-rt-content pre code.il{color:#F60}
+#sbo-rt-content pre code.g{color:#050}
+#sbo-rt-content pre code.l{color:#C60}
+#sbo-rt-content pre code.l{color:#F90}
+#sbo-rt-content pre code.n{color:#bbf}
+#sbo-rt-content pre code.nx{color:#008}
+#sbo-rt-content pre code.py{color:#96F}
+#sbo-rt-content pre code.p{color:#bbb}
+#sbo-rt-content pre code.x{color:#F06}
